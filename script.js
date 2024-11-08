@@ -1,10 +1,53 @@
 const projects = [
   {
+    id: 7,
+    name: 'TechCare - Comprehensive Healthcare dashboard',
+    description:
+      'Meditechplus Techcare is a comprehensive healthcare dashboard designed to streamline the management of medical records, appointments, and diagnostic histories for both users and hospitals. With an intuitive interface, TechCare enhances patient care by providing seamless access to medical histories and scheduling tools, enabling efficient, secure, and organized healthcare management.',
+    technology: ['React & Redux', 'Postgresl & AmazonS3', 'Git, Netlify'],
+    image: 'img/healthcare dashboard.PNG',
+    liveVersion: 'img/Icon-2.png',
+    source: 'img/github.png',
+    liveDemo: 'https://meditechplus.netlify.app/',
+    sourceCode: 'https://github.com/prius2055/medPlus-dashboard',
+  },
+
+  {
+    id: 6,
+    name: 'Website for a consultancy firm',
+    description:
+      'Explore RAEMCOD GLOBAL GROUP website. A company exceling in real estate, media production, ICT, and strategic investment. Navigate seamlessly through their subsidiary companies and explore the array of services.',
+    technology: ['JavaScript', 'Gitflow', 'CSS', 'HTML'],
+    image: 'img/leaderboard-3.PNG',
+    liveVersion: 'img/Icon-2.png',
+    source: 'img/github.png',
+    liveDemo: 'https://www.raemcodgroup.com/',
+    sourceCode: 'https://github.com/prius2055/raemcod-group',
+  },
+
+  {
+    id: 2,
+    name: 'spaceX',
+    description:
+      'An innovative and captivating Mission to Space application leveraging the rich capabilities of the space API. This cutting-edge app empowers users to embark on an extraordinary journey to outer space by facilitating seamless reservations and bookings for an experience that transcends our earthly bounds. With the mission to space app, the cosmos is now within reach.',
+    technology: ['React', 'Redux', 'API', 'CSS', 'Axios'],
+    image: 'img/spaceX.PNG',
+    liveVersion: 'img/Icon-2.png',
+    source: 'img/github.png',
+    liveDemo: 'https://spacex-mv.netlify.app/',
+    sourceCode: 'https://github.com/abeltsew/spacex',
+  },
+  {
     id: 3,
     name: 'Gistam - Your Ultimate Micro-Blogging Experience!',
     description:
       'Dive into Gistam, the vibrant micro-blogging platform where your voice matters. Whether you are sharing thoughts, engaging in lively discussions, or showcasing your latest photos, Gistam has you covered. Created with React, Redux, Rails for backend, postgreSql, with images hosted using Amazon s3, and hosted using netlify and render, Gistam enables you to create and share posts effortlessly, comment on posts and interact with other users, Like posts to show your support, easily delete your posts and comments whenever you choose, upload images to enhance your posts. Experience the power of community and seamless interaction on Gistam. Join us today and start sharing your story!',
-    technology: ['React & Redux', 'Rails', 'Postgresl & AmazonS3', 'Git, Render & Netlify'],
+    technology: [
+      'React & Redux',
+      'Rails',
+      'Postgresl & AmazonS3',
+      'Git, Render & Netlify',
+    ],
     image: 'img/gistam.PNG',
     liveVersion: 'img/Icon-2.png',
     source: 'img/github.png',
@@ -26,19 +69,6 @@ const projects = [
   },
 
   {
-    id: 2,
-    name: 'spaceX',
-    description:
-      'An innovative and captivating Mission to Space application leveraging the rich capabilities of the space API. This cutting-edge app empowers users to embark on an extraordinary journey to outer space by facilitating seamless reservations and bookings for an experience that transcends our earthly bounds. With the mission to space app, the cosmos is now within reach.',
-    technology: ['React', 'Redux', 'API', 'CSS', 'Axios'],
-    image: 'img/spaceX.PNG',
-    liveVersion: 'img/Icon-2.png',
-    source: 'img/github.png',
-    liveDemo: 'https://spacex-mv.netlify.app/',
-    sourceCode: 'https://github.com/abeltsew/spacex',
-  },
-
-  {
     id: 4,
     name: 'Currency exchanger',
     description:
@@ -53,28 +83,15 @@ const projects = [
 
   {
     id: 5,
-    name: 'BudgIT',
+    name: 'PAFIR Awards',
     description:
-      'Introducing an engaging and user-friendly Interactive Budgeting application, designed to empower individuals with effective financial planning and expense tracking tools. This intuitive app goes beyond mere budgeting; it serves as a comprehensive financial companion, assisting users in meticulous expense planning and tracking, providing real-time insights into their financial health, and ultimately helping them achieve their financial goals with confidence and ease',
-    technology: ['CSS', 'JavaScript', 'Ruby', 'Shell', 'Rails'],
-    image: 'img/BudgIT-2.PNG',
+      'Introducing Pinnacle Awards for Finance, ICT, and Real estate (PAFIR) Awards, an organisation to recognise innovation and people who have demonstrated exceptional leadership in the Finance, ICT, and Real estate in Nigeria. Users can nominate candidates of their choice which is stored in a database that can be printed. The backend for this application is built with expressjs',
+    technology: ['CSS', 'JavaScript', 'ExpressJs', 'Backend', 'Database'],
+    image: 'img/pafir.JPG',
     liveVersion: 'img/Icon-2.png',
     source: 'img/github.png',
-    liveDemo: 'https://budgit.onrender.com/',
-    sourceCode: 'https://github.com/prius2055/rails-budget-app',
-  },
-
-  {
-    id: 6,
-    name: 'Website for a consultancy firm',
-    description:
-      'Explore RAEMCOD GLOBAL GROUP website. A company exceling in real estate, media production, ICT, and strategic investment. Navigate seamlessly through their subsidiary companies and explore the array of services.',
-    technology: ['JavaScript', 'Gitflow', 'CSS', 'HTML'],
-    image: 'img/leaderboard-3.PNG',
-    liveVersion: 'img/Icon-2.png',
-    source: 'img/github.png',
-    liveDemo: 'https://www.raemcodgroup.com/',
-    sourceCode: 'https://github.com/prius2055/raemcod-group',
+    liveDemo: 'https://www.pafirawards.ng/',
+    sourceCode: 'https://github.com/prius2055/pafir-awards',
   },
 ];
 
